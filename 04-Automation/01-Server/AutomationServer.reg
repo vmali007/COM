@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{dae2328f-b2f7-4879-a58f-f1b2add5f65d}]
+@="VDM:MY Automation SERVER"
+[HKEY_CLASSES_ROOT\CLSID\{dae2328f-b2f7-4879-a58f-f1b2add5f65d}\InProcServer32]
+@="C:\\Windows\\System32\\AutomationServer.dll"
+[HKEY_CLASSES_ROOT\CLSID\{dae2328f-b2f7-4879-a58f-f1b2add5f65d}\TypeLib]
+@="{055ec1fe-c0ec-4827-b673-10af302ab476}"
+[HKEY_CLASSES_ROOT\TypeLib\{055ec1fe-c0ec-4827-b673-10af302ab476}]
+@="VDM:My Automation Server Type Library"
+[HKEY_CLASSES_ROOT\TypeLib\{055ec1fe-c0ec-4827-b673-10af302ab476}\1.0]
+@="VDM:My Automation Server Type Library Version 1.0"
+[HKEY_CLASSES_ROOT\TypeLib\{055ec1fe-c0ec-4827-b673-10af302ab476}\1.0\0\win32]
+@="C:\\Windows\\System32\\AutomationServerTypeLib.tlb"
+[HKEY_CLASSES_ROOT\Interface\{2b333038-973b-4e41-b540-08769ea53d12}]
+@="IMyMath"
+[HKEY_CLASSES_ROOT\Interface\{2b333038-973b-4e41-b540-08769ea53d12}\TypeLib]
+@="{055ec1fe-c0ec-4827-b673-10af302ab476}"
+[HKEY_CLASSES_ROOT\Interface\{2b333038-973b-4e41-b540-08769ea53d12}\ProxyStubClsid32]
+@="{00020424-0000-0000-c000-000000000046}"
+[HKEY_CLASSES_ROOT\Interface\{2b333038-973b-4e41-b540-08769ea53d12}\ProxyStubClsid]
+@="{00020424-0000-0000-c000-000000000046}"

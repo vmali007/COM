@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{efa6ae4b-c2c7-4bc8-87f8-4550ed0a940e}]
+@="VDM:Outer COM DLL"
+[HKEY_CLASSES_ROOT\CLSID\{efa6ae4b-c2c7-4bc8-87f8-4550ed0a940e}\InprocServer32]
+@="C:\\Windows\\System32\\ContainmentOuterComponentWithRegFile.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{f3f9bd05-8281-4f71-a359-ef929a52a5d1}]
+@="VDM:Inner COM DLL"
+[HKEY_CLASSES_ROOT\CLSID\{f3f9bd05-8281-4f71-a359-ef929a52a5d1}\InprocServer32]
+@="C:\\Windows\\System32\\ContainmentInnerComponentWithRegFile.dll"

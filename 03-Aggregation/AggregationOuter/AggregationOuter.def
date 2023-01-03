@@ -1,0 +1,4 @@
+LIBRARY AggregationOuter.dll
+EXPORTS
+	DllGetClassObject PRIVATE
+	DllCanUnloadNow   PRIVATE

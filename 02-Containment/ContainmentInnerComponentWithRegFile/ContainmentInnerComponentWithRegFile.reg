@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{f3f9bd05-8281-4f71-a359-ef929a52a5d1}]
+@="VDM:MY CLASS FACTORY DLL SERVER"
+[HKEY_CLASSES_ROOT\CLSID\{f3f9bd05-8281-4f71-a359-ef929a52a5d1}\InprocServer32]
+@="C:\\Windows\\System32\\ContainmentInnerComponentWithRegFile.dll"

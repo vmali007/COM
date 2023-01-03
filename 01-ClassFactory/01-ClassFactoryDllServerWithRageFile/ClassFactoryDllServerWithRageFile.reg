@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{bb7d9fb3-3751-4d53-b73a-e1342f2b896e}]
+@="VDM:MY CLASS FACTORY DLL SERVER"
+[HKEY_CLASSES_ROOT\CLSID\{bb7d9fb3-3751-4d53-b73a-e1342f2b896e}\InprocServer32]
+@="C:\\Windows\\System32\\ClassFactoryDllServerWithRageFile.dll"

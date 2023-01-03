@@ -1,0 +1,4 @@
+LIBRARY ClassFactoryDllServerWithRageFile.dll
+EXPORTS
+	DllGetClassObject PRIVATE
+	DllCanUnloadNow   PRIVATE

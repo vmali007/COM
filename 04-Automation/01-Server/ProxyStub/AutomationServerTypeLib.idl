@@ -1,0 +1,38 @@
+import "unknwn.idl";
+//IMyMath Interface defination block
+[
+	object,
+	uuid(2b333038-973b-4e41-b540-08769ea53d12),//IID_IMyMath {2b333038-973b-4e41-b540-08769ea53d12}
+	helpstring("IMyMath Interface"),
+	pointer_default(unique),
+	dual,
+	oleautomation
+]
+interface IMyMath : IDispatch
+{
+	import "oaidl.idl";
+	HRESULT SumOfTwoIntegers([in]int, [in]int, [out, retval]int*);
+	HRESULT SubtractionOfTwoIntegers([in]int, [in]int, [out, retval]int*);
+};
+
+//TypeLib defination block
+[
+	uuid(055ec1fe-c0ec-4827-b673-10af302ab476),//LIBID of MyMath str {055ec1fe-c0ec-4827-b673-10af302ab476}
+	version(1.0),
+	helpstring("Automation TypeLib")
+]
+library AutomationServerTypeLib
+{
+	importlib("stdole32.tlb");
+	//co class defination block
+	[
+		uuid(dae2328f-b2f7-4879-a58f-f1b2add5f65d),//CLSID of MyMath {dae2328f-b2f7-4879-a58f-f1b2add5f65d}
+		helpstring("Math Automation Server")
+	]
+	coclass CMyMath
+	{
+		[default] interface IMyMath;
+	};
+};
+
+//midl.exe /h AutomationProxiStubHeader.h /iid AutomationProxiStubGuids.c /dlldata AutomationProxiStubData.c /proxy AutomationProxiStub.c AutomationServerTypeLib.idl  

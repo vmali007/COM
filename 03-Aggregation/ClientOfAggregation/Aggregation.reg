@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{073b465b-004c-4939-a5fb-90547a454c30}]
+@="VDM:Outer COM DLL"
+[HKEY_CLASSES_ROOT\CLSID\{073b465b-004c-4939-a5fb-90547a454c30}\InprocServer32]
+@="C:\\Windows\\System32\\AggregationOuter.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{58ce4eed-80dc-4eb5-8cf4-98052ddaad01}]
+@="VDM:Inner COM DLL"
+[HKEY_CLASSES_ROOT\CLSID\{58ce4eed-80dc-4eb5-8cf4-98052ddaad01}\InprocServer32]
+@="C:\\Windows\\System32\\AggregationInner.dll"
